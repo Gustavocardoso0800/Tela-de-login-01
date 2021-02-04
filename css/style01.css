@@ -78,11 +78,13 @@ h1 {
 
 p {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    
 }
 p a {
     color: rgba(255, 255, 255, 0.158);
     text-decoration: none;
+    
 }
 
 footer {
@@ -93,4 +95,36 @@ footer {
     position: fixed;
     padding: 5px;
     width: 100%;
+}
+
+footer p {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 350px;
+        height: 240;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 300px;
+        height: 220;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container {
+        width: 250px;
+        height: 200;
+    }
+    .ipt {
+        width: 250px;
+        height: 280;
+    }
+    #btn {
+        width: 250px;
+        height: 280;
+    }
 }
