@@ -48,6 +48,7 @@ h1 {
     background-position: 5px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    outline: 0;
     
 
 }
@@ -69,6 +70,7 @@ h1 {
     width: 280px;
     height: 35px;
     border-radius: 20px;
+    outline: 0
 
 }
 
