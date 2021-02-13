@@ -1,3 +1,4 @@
+/*---------------GLOBAL------------*/
 * {
     padding: 0;
     margin: 0;
@@ -5,11 +6,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*---------------BODY------------*/
+
 body {
     background-attachment: fixed;
     background-image: linear-gradient(to bottom right, #5b0fbd, #8a11b9);
     
 }
+
+/*---------------H1-----------*/
 
 h1 {
     margin: 0 auto;
@@ -19,6 +24,7 @@ h1 {
     font-weight: 400;
 }    
 
+/*---------------CONTAINER------------*/
 .container {
     width: 400px;
     height: 380;
@@ -31,11 +37,15 @@ h1 {
     
 }
 
+/*---------------IMG------------*/
+
 #img {
     margin: 20px;
     background-color: rgba(70, 29, 117, 0.199);
     border-radius: 35px;
 }
+
+/*---------------INPUT------------*/
 
 .ipt{
     text-indent: 40px;
@@ -61,6 +71,8 @@ h1 {
     background-image: url(../image/icon-key.png);
 }
 
+/*---------------BTN------------*/
+
 #btn {
     background-image: linear-gradient(to bottom right, #8852e4, #250ad6);
     color: #fff;
@@ -78,6 +90,12 @@ h1 {
     background-image: linear-gradient(to bottom right, #4605b4, #2209c4);
 }
 
+#btn:active {
+    background-image: linear-gradient(to bottom right, #a505b4, #271a7c);
+}
+
+/*---------------P------------*/
+
 p {
     text-align: center;
     margin-top: 20px;
@@ -88,6 +106,8 @@ p a {
     text-decoration: none;
     
 }
+
+/*---------------FOOTER------------*/
 
 footer {
     background-color: #250c50;
@@ -102,6 +122,8 @@ footer {
 footer p {
     margin: auto;
 }
+
+/*---------------MEDIA------------*/
 
 @media only screen and (max-width: 600px) {
     .container {
